@@ -1,0 +1,24 @@
+.mpname{
+    font-size: 30px;
+}
+.mpemail{
+    font-size: 20px;
+}
+.bormsg{
+    text-align: center;font-size: 50px;color: white;
+}
+.borrowtablebtn{
+    display: flex;justify-content: center;margin-top: 50px;
+}
+.borrowbtn{
+    font-size: 50px!important;
+}
+
+@media (max-width:450px){
+    .bormsg{
+        text-align: center;font-size: 30px;color: white;
+    }
+    .borrowbtn{
+        font-size: 25px!important;
+    }
+}

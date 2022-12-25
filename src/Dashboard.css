@@ -1,0 +1,62 @@
+.cardscontainer{
+    display: flex;justify-content: center;
+}
+.bookscard,.memberscard{
+    margin: 20px; transition: 0.2s;
+}
+.bookscard:hover,.memberscard:hover{
+    transform: translate(0,-10px); cursor: pointer;
+}
+.bookimage,.memimage{
+    height: 400px; width: 400px;
+}
+.cbody{
+    text-align: center; font-size: 20px;
+}
+.delbtn,.editbtn{
+    margin: 10px!important;
+}
+.bookstable{
+    margin: 30px;background-color: rgba(0,0,0,0.2)!important;
+}
+.actionbtns{
+    display: flex!important;
+}
+.th{
+    font-size: 25px!important;color: white!important
+}
+.thead{
+    background-color: burlywood!important;
+}
+.td{
+    font-size: 20px!important;color: white!important;
+}
+
+
+@media (max-width: 950px){
+ 
+    .bookscard,.memberscard{
+        margin: 10px; width: 200px;
+    }
+    .bookimage,.memimage{
+        height:80%; width: 100%;
+    }
+    .cbody{
+        text-align: center; font-size: 15px;
+    }
+    .delbtn,.editbtn{
+        margin: 10px!important;
+    }
+    .bookstable{
+        margin: 10px;
+    }
+    .th{
+        font-size: 20px!important;color: white!important
+    }
+    .thead{
+        background-color: burlywood!important;
+    }
+    .td{
+        font-size: 15px!important;color: white!important;
+    }
+}
